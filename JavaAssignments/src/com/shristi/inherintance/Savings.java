@@ -7,7 +7,7 @@ public class Savings extends Account {
 	}
 
 	@Override
-	void withdraw(int amount) {
+	void withdraw(double amount) {
 		if (amount > balance) {
 			System.out.println("Low balance");
 		} else {
@@ -19,7 +19,7 @@ public class Savings extends Account {
 	}
 
 	@Override
-	void deposit(int amount) {
+	void deposit(double amount) {
 		// TODO Auto-generated method stub
 		System.out.println("Savings deposit " + amount);
 		System.out.println("Balance: " + (balance + amount));
