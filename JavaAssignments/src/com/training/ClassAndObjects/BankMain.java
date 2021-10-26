@@ -1,15 +1,15 @@
 package com.training.ClassAndObjects;
 
-public class Bankname {
+public class BankMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-			Bank b = new Bank(10000);
-			b.deposit(2000);
+			Bank b = new Bank(500000);
+			b.deposit(3000);
 			System.out.println(b.getBalance());
 			
-			b.withdraw(1000);
+			b.withdraw(2000);
 			System.out.println(b.getBalance());
 	}
 
