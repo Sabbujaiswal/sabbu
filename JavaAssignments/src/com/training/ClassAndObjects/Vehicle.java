@@ -6,8 +6,8 @@ public class Vehicle {
 	double price;
 
 	void getDetails() {
-		System.out.println("name: " + name);
-		System.out.println("model: " + model);
-		System.out.println("price = " + price);
+		System.out.println("Name: " + name);
+		System.out.println("Model: " + model);
+		System.out.println("Price = " + price);
 
 	}}
