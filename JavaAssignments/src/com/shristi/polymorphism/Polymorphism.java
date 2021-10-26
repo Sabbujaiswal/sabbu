@@ -1,9 +1,9 @@
 package com.shristi.polymorphism;
 
-public class Polymorphism {
+public class Employee {
 String name; String designation;
 	
-	public Polymorphism(String name, String designation){
+	public Employee(String name, String designation){
 		this.name = name;
 		this.designation = designation;
 	}
