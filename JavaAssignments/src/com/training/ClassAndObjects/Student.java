@@ -21,12 +21,12 @@ public class Student {
 		}
 		System.out.println("Sum of numbers = "+ count);
 		
-		System.out.println("Avg of numbers =" + count/(marks.length));
+		System.out.println("Average of numbers = " + count/(marks.length));
 		
-		if(count <60) {
+		if(count <50) {
 			System.out.println("C");
 		}
-		else if(count >60 && count <90) {
+		else if(count >50 && count <80) {
 			System.out.println("B");
 		}
 		else {
