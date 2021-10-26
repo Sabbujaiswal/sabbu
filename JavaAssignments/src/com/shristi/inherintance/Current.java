@@ -7,7 +7,7 @@ public class Current extends Account {
 	}
 
 	@Override
-	void withdraw(int amount) {
+	void withdraw(double amount) {
 		// TODO Auto-generated method stub
 		try {
 			if (amount > balance) {
@@ -24,7 +24,7 @@ public class Current extends Account {
 	}
 
 	@Override
-	void deposit(int amount) {
+	void deposit(double amount) {
 		// TODO Auto-generated method stub
 
 		System.out.println("Amount deposited: " + amount);
