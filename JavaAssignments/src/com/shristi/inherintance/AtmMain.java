@@ -11,7 +11,7 @@ public class AtmMain {
 		String accType = input.next();
 		Account account = null;
 		if (accType.equalsIgnoreCase("savings")) {
-			account = new Savings(5000);
+			account = new Savings(8000);
 			while (true) {
 				System.out.println("Please enter: ");
 				System.out.println("1. Deposit");
@@ -36,7 +36,7 @@ public class AtmMain {
 			}
 		} else if (accType.equals("Current")) {
 			while (true) {
-				account = new Current(1000);
+				account = new Current(4000);
 				System.out.println("Please enter : ");
 				System.out.println("1. Deposit");
 				System.out.println("2. Withdraw");
