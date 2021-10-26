@@ -7,11 +7,11 @@ public class Account {
 		this.balance = balance;
 	}
 
-	void withdraw(int amount) {
+	void withdraw(double amount) {
 		balance = balance - amount;
 	}
 
-	void deposit(int amount) {
+	void deposit(double amount) {
 		balance = balance + amount;
 	}
 
