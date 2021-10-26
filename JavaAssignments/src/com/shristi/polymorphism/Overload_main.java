@@ -1,6 +1,6 @@
 package com.shristi.polymorphism;
 
-public class Overload_main {
+public class OverloadMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
