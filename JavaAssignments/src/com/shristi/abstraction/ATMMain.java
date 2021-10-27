@@ -11,18 +11,17 @@ public class ATMMain {
 		System.out.println(" Savings Account PRESS 1 " + '\n' + "current Account PRESS 2");
 		int accType = sc.nextInt();
 
-		switch (accType) {
-		case 1:
+		if (accType==1) {
+		
 			System.out.println("Savings Account");
 
-			break;
-		case 2:
+		}else if(accType == 2){
+	
 			System.out.println("Current Account");
-			break;
-
-		default:
+		}
+		else{
 			System.out.println("Invalid Input");
-			break;
+			
 		}
 
 		System.out.println("For Withdrawl PRESS 3" + '\n' + "For Deposit PRESS 4");
