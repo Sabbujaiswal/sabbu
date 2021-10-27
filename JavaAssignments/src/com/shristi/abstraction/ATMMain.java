@@ -8,7 +8,7 @@ public class ATMMain {
 		// TODO Auto-generated method stub
 		Bank bank;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("For Savings Account PRESS 1 " + '\n' + "For current Account PRESS 2");
+		System.out.println(" Savings Account PRESS 1 " + '\n' + "current Account PRESS 2");
 		int accType = sc.nextInt();
 
 		switch (accType) {
@@ -28,17 +28,12 @@ public class ATMMain {
 		System.out.println("For Withdrawl PRESS 3" + '\n' + "For Deposit PRESS 4");
 		int mode = sc.nextInt();
 
-		switch (mode) {
-		case 3:
+		if (mode == 3) {
 			System.out.println("Selected Withdrawl");
-			break;
-		case 4:
+		} else if(mode == 4) {
 			System.out.println("Selected Deposit");
-			break;
-
-		default:
+		} else {
 			System.out.println("Invalid Input");
-			break;
 		}
 
 		if (accType == 1 && mode == 3) {
